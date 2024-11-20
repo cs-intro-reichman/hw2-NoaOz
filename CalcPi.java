@@ -6,9 +6,9 @@ public class CalcPi {
 				for (int i = 0; i < terms; i++) {
 					double term = 1.0 / (2 * i + 1);
 					if (i % 2 == 0) {
-						approximatedPI += term;
+						approximatedPI = approximatedPI + term;
 					} else {
-						approximatedPI -= term;
+						approximatedPI = approximatedPI - term;
 					}
 				}
 				approximatedPI *= 4;
