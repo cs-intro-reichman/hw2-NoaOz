@@ -3,7 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
 	 String cheers = args[0];
          int Number = Integer.parseInt(args[1]);
-         String specialletters = "AEFHILMNOR";
+         String specialletters = "AEFHILMNORSX";
          String Uppercasecheers = "";
          String a = "";
 
