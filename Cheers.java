@@ -22,7 +22,7 @@ public class Cheers {
                 char ch = Uppercasecheers.charAt(i);
                 for (int j = 0; j < specialletters.length(); j++){
                         if(specialletters.indexOf(ch) == -1){
-                              a = "a";       
+                              a = "a ";       
                         }
                          else {
                                a = "an";
