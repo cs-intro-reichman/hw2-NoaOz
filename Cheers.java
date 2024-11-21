@@ -4,19 +4,9 @@ public class Cheers {
 	 String cheers = args[0];
          int Number = Integer.parseInt(args[1]);
          String specialletters = "AEFHILMNORSX";
-         String Uppercasecheers = "";
+         String Uppercasecheers = cheers.toUpperCase();
          String a = "";
 
-         for (int i = 0; i < cheers.length(); i++) {
-                char ch = cheers.charAt(i);
-                if (ch >= 'a' && ch <= 'z') {
-                    ch = (char) (ch - ('a' - 'A'));
-                    Uppercasecheers = Uppercasecheers + ch ; 
-                }
-                else {
-                        Uppercasecheers = Uppercasecheers + ch ;
-                }
-        }
 
          for (int i = 0; i < Uppercasecheers.length(); i++) {
                 char ch = Uppercasecheers.charAt(i);
